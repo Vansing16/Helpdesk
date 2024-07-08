@@ -1,0 +1,23 @@
+.save-btn {
+    font-size: 16px; /* Change the font size as needed */
+    margin-top: 10px; /* Adjust the top margin as needed */
+    margin-bottom: 0; /* Remove bottom margin */
+}
+
+/* Custom CSS for Add New Agent button */
+.add-agent-btn {
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.add-agent-btn:hover {
+     /* Slightly different color on hover */
+     background-color: black;
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,62 @@
+/* Custom CSS for Save button */
+.btn-dark {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    opacity: 80%;
+}
+
+.btn-dark:hover {
+    background-color: black;
+    opacity: 100%;
+}
+.btn-danger{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-danger:hover {
+    background-color: red;
+}
+
+/* Custom CSS for flexbox layout */
+.name {
+    display: flex;
+    gap: 0;
+}
+
+.name .form-group {
+    flex: 1;
+    margin-right: 0;
+}
+
+.name .form-group:first-child {
+    margin-right: 1rem;
+}
+
+/* Custom CSS for form */
+.form-control:focus {
+    border-color: #000;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Image preview styles */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+}
